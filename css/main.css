@@ -11,17 +11,25 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	font-family: helvetica;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
+h1 {
+	text-align: center;
+	margin-top: 5em;
+}
+
 .btn {
 	font-weight: bold;
+	color: #fff;
 	text-decoration: none;
 	padding: .5em 1em;
 	display; inline-block;
+	position: center;
 }
 
 .btn:hover,
