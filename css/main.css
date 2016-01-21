@@ -5,6 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+	background-image: "assets/bg.svg";
 	box-sizing: border-box;
 
 	-moz-text-size-adjust: 100%;
@@ -18,23 +19,26 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 	margin-top: 5em;
+	margin-bottom: 3em;
 }
+
+
 
 .btn {
 	font-weight: bold;
-	color: #fff;
+	color: #333;
 	text-decoration: none;
-	padding: .5em 1em;
+	padding: 0em 0em;
+	margin: 0 1em;
 	display; inline-block;
 	position: center;
-}
-
-.btn:hover,
-.btn:active,
-.btn:focus {
-	background-color: #aaa;
+	font-size: 4em;
 }
 
